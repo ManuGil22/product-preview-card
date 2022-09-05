@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-to-cart-btn.component.scss']
 })
 export class AddToCartBtnComponent implements OnInit {
-  cartIcon = '../assets/images/icon-cart.svg';
+  cartIcon = './assets/images/icon-cart.svg';
 
   constructor() { }
 
