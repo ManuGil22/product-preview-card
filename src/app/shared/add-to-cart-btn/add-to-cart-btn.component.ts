@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AddToCartBtnComponent implements OnInit {
   cartIcon = './assets/images/icon-cart.svg';
 
+  
   constructor() { }
 
   ngOnInit(): void {
