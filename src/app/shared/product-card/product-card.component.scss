@@ -40,3 +40,27 @@
     line-height: 1.5rem;
     color: $textColor;
 }
+
+@media (max-width: 720px){
+    .card {
+        max-height: 750px;
+        flex-direction: column;
+        margin: 0 16px;
+    }
+    .product-image {
+        max-height: 250px;
+        border-radius: 16px 16px 0 0;
+    }
+    .card-description{
+        border-radius: 0 0 16px 16px;
+        max-width: 400px;
+        width: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .card-title {
+        font-size: 2rem;
+    }
+}
