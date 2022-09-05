@@ -5,10 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './add-to-cart-btn.component.html',
   styleUrls: ['./add-to-cart-btn.component.scss']
 })
-export class AddToCartBtnComponent implements OnInit {
-  cartIcon = './assets/images/icon-cart.svg';
-
-  
+export class AddToCartBtnComponent implements OnInit {  
   constructor() { }
 
   ngOnInit(): void {
