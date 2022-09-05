@@ -1,0 +1,42 @@
+@import '/src/stylesheets/global.scss';
+
+.card {
+    max-height: 500px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.card-description {
+    background-color: $cardBackgroundColor;
+    width: 270px;
+    padding: 30px;
+    border-radius: 0 16px 16px 0;
+}
+
+.product-image {
+    max-height: 500px;
+    border-radius: 16px 0 0 16px;
+    object-fit: cover;
+}
+
+.product-type {
+    text-transform: uppercase;
+    font-family: $SecondaryFontFamily;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    color: $textColor;
+}
+
+.card-title {
+    color: $headerColor;
+    font-family: $MainFontFamily;
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+    margin: 16px 0 32px 0;
+}
+
+.card-text {
+    font-family: $SecondaryFontFamily;
+    line-height: 1.5rem;
+    color: $textColor;
+}

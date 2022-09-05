@@ -1,0 +1,25 @@
+@import '/src/stylesheets/global.scss';
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    color: $cardBackgroundColor;
+    background-color: $primaryColor;
+    border: none;
+    border-radius: 8px;
+    font-family: $SecondaryFontFamily;
+    margin-top: 32px;
+    font-weight: 700;
+
+    &>img{
+        margin-right: 8px;
+    }
+
+    &:hover{
+        cursor: pointer;
+        background-color: $primaryColorHover;
+    }
+}

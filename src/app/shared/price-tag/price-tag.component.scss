@@ -1,0 +1,23 @@
+@import '/src/stylesheets/global.scss';
+
+.container {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.new-price {
+    font-family: $MainFontFamily;
+    font-size: 2.2rem;
+    color: $primaryColor;
+    margin-right: 16px;
+}
+
+.old-price{
+    color: $textColor;
+    text-decoration: line-through;
+}
+
+.hidden {
+    display: none;
+}
